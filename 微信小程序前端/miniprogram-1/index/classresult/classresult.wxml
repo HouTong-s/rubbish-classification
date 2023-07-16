@@ -1,0 +1,9 @@
+<!--index/classresult/classresult.wxml-->
+<view style="text-align:center;margin-top:10px">
+<view wx:if="{{class == '数据库未收录该种垃圾'}}">
+      {{class}}
+</view>
+<view wx:else>
+      该种垃圾是：{{class}}
+</view>
+</view>

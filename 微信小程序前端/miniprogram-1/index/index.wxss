@@ -1,0 +1,49 @@
+.authentication {
+	padding: 40rpx 0 0 30rpx;
+	box-sizing: border-box;
+	position: relative;
+}
+.headPortrait{
+	width: 720rpx;
+	height: 110rpx;
+	box-sizing: border-box;
+	margin-top: 24rpx;
+	border-bottom: 2rpx solid #F2F3F5;
+}
+
+
+.up-img-header{
+
+	width: 80rpx;
+	height: 80rpx;
+	float: left;
+	position: relative;
+}
+.headerurl{
+	width: 80rpx;
+	height: 80rpx;
+  border-radius: 50%;
+  background-color: white;
+}
+.headerurls{
+	width: 28rpx;
+	height: 28rpx;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.up-img-txts{
+	height: 80rpx;
+	line-height: 80rpx;
+	float: left;
+	text-align: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular;
+	color: #999999;
+	margin-left: 20rpx;
+}
+.img{
+  width: 500rpx;
+  height: 500rpx;
+}

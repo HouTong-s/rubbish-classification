@@ -1,0 +1,8 @@
+<!--index/display1/display1.wxml-->
+<view class='container'>
+  <view style="margin-bottom:15px;font-size: 25px;"> {{src}}</view>
+  <block wx:for="{{list}}" wx:key="index">
+    <view class='text-content' bindtap="search" data-class2="{{item}}">{{item}}</view> 
+  </block>
+</view>
+

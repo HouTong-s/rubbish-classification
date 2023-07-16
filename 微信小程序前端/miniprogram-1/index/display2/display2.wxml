@@ -1,0 +1,10 @@
+<!--index/display2/display2.wxml-->
+<view>
+<view style="text-align:center;margin-bottom:15px;font-size: 25px;">
+{{class2}}
+</view>
+<view wx:for="{{list}}" wx:key="index">
+<image src="{{item}}" style="width:100%;margin-top:10px">
+</image>
+</view>
+</view>

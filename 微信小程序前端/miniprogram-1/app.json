@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "index/index",
+    "index/result/result",
+    "index/display1/display1",
+    "index/display2/display2",
+    "index/classresult/classresult"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "垃圾分类识别程序",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

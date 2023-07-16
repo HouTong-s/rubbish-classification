@@ -1,0 +1,20 @@
+<view class="authentication">
+  <view class="headPortrait" bindtap="upload">
+    <view class="up-img-header">
+      <image mode="aspectFill" src="../assets/加.png" class="headerurl" ></image>
+    </view>
+    <view class="up-img-txts">点击上传图片搜索</view>
+  </view>
+  <picker-view indicator-style="height: 50px;" style="width: 30%; height: 150px;top:50px;position:relative" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{classes}}" wx:key="index" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+    
+  </picker-view>
+  <button style="height: 40px;width:38%;bottom:45px;position:relative;background-color:steelblue;color:white" bindtap="search">搜索图片
+    </button>
+    <view style="position:relative;top:50px">
+      <input class='input-radius'  placeholder='请输入垃圾的名称' placeholder-class='iconfont icon-sousuo mid-font '   placeholder-style='color:#999999;font-size:14px'  style="border: 1px solid grey;margin-bottom:5px;" bindinput="getInputValue" />
+    <button style="width:40%;background-color:steelblue;color:white" bindtap="searchByKeyword"> 搜索类别</button>
+  </view>
+</view>

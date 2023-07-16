@@ -1,0 +1,8 @@
+<!--index/result/result.wxml-->
+<image model='' src="{{Url==''?'':Url}}" class="headerurl" ></image>
+<text>\n该垃圾的种类是：{{class}}</text>
+<!--
+<view class='bar'>
+<view class='btn btn-cancel ripple' bindtap='fnCancel'>返回</view>
+</view>
+-->
